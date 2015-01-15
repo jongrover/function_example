@@ -21,11 +21,11 @@ $(function(){
 
   function milkTheCow() {
     var fav_cow = "Ruby";
-    console.log(fav_cow);
-
+    //console.log(fav_cow);
+    return fav_cow;
   }
 
-  milkTheCow();
+  //milkTheCow();
 
   var global_feeling = milkTheCow();
 
